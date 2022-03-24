@@ -19,6 +19,7 @@ namespace LiJiT.Model
         public DateTime EndDate { get; set; }
         [Required]
         public string Location { get; set; }
+        //Image could be important in this class
         public byte[] ImageEvent { get; set; }
 
         [ForeignKey("StatusTypeId")]
