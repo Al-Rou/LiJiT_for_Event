@@ -46,6 +46,18 @@ namespace LiJiT.API.MappingProfile
                 Convert.ToBase64String(a.ImageAbout)));
             CreateMap<AboutContentDto, AboutContent>()
                                .ForMember(dest => dest.ImageAbout, opt => opt.MapFrom(a => System.Convert.FromBase64String(a.ImageAbout)));
+            CreateMap<EventsDto, Events>()
+                .ForMember(dest => dest.CreatedBy, opt => opt.Ignore())
+                  .ForMember(dest => dest.CreatedDate, opt => opt.Ignore())
+                    .ForMember(dest => dest.UpdatedDate, opt => opt.Ignore())
+                      .ForMember(dest => dest.UpdatedBy, opt => opt.Ignore())
+                .ForMember(dest => dest.StatusTypeId, opt => opt.Ignore())
+                .ForMember(dest => dest.StatusType, opt => opt.Ignore())
+                .ForMember(dest => dest.ImageEvent, opt => opt.MapFrom(a => System.Convert.FromBase64String(a.ImageEvent)));
+            CreateMap<Events, EventsDto>()
+                .ForMember(dest => dest.ImageEvent, opt => opt.MapFrom(a => "data:image/png;base64," +
+                Convert.ToBase64String(a.ImageEvent)));
+
         }
     }
 }

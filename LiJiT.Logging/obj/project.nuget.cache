@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8kaUCeWNrUFOYEmXqQOnL6BecRmqBfLxWtTURux9dHlRaBWaOtMBQStTGvTbEcufDnFVSGwDfjzcMGWEuSreA==",
+  "dgSpecHash": "2atyLk2JadMgyI3qG6N/WXoq0ZEfhkB6dR8SdNr7TUwWUl0x474OK3dgyPLnOr8Y4zuT5nrf27zBW3ibDjTp3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Logging\\LiJiT.Logging.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Al\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Al\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Al\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
