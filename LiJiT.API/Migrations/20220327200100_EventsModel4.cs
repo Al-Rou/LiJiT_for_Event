@@ -6,13 +6,13 @@ namespace LiJiT.API.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_events_statusTypes_StatusTypeId",
-                table: "events");
+            //migrationBuilder.DropForeignKey(
+            //    name: "FK_events_statusTypes_StatusTypeId",
+            //    table: "events");
 
-            migrationBuilder.DropIndex(
-                name: "IX_events_StatusTypeId",
-                table: "events");
+            //migrationBuilder.DropIndex(
+            //    name: "IX_events_StatusTypeId",
+            //    table: "events");
 
             migrationBuilder.DropColumn(
                 name: "StatusTypeId",

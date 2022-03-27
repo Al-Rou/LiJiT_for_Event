@@ -109,9 +109,6 @@ namespace LiJiT.API.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<short>("StatusTypeId")
-                        .HasColumnType("smallint");
-
                     b.Property<string>("UpdatedBy")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
@@ -120,8 +117,6 @@ namespace LiJiT.API.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("StatusTypeId");
 
                     b.ToTable("events");
                 });
@@ -502,17 +497,6 @@ namespace LiJiT.API.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("supportPrograms");
-                });
-
-            modelBuilder.Entity("LiJiT.Model.Events", b =>
-                {
-                    b.HasOne("LiJiT.Model.StatusType", "StatusType")
-                        .WithMany()
-                        .HasForeignKey("StatusTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("StatusType");
                 });
 
             modelBuilder.Entity("LiJiT.Model.ListingDetailSocialProfiles", b =>

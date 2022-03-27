@@ -7,18 +7,12 @@ namespace LiJiT.API.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "ImageEvent",
-                table: "events");
+   
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<byte[]>(
-                name: "ImageEvent",
-                table: "events",
-                type: "varbinary(max)",
-                nullable: true);
+      
         }
     }
 }
