@@ -51,12 +51,10 @@ namespace LiJiT.API.MappingProfile
                   .ForMember(dest => dest.CreatedDate, opt => opt.Ignore())
                     .ForMember(dest => dest.UpdatedDate, opt => opt.Ignore())
                       .ForMember(dest => dest.UpdatedBy, opt => opt.Ignore())
-                .ForMember(dest => dest.StatusTypeId, opt => opt.Ignore())
-                .ForMember(dest => dest.StatusType, opt => opt.Ignore())
                 .ForMember(dest => dest.ImageEvent, opt => opt.MapFrom(a => System.Convert.FromBase64String(a.ImageEvent)));
             CreateMap<Events, EventsDto>()
-                .ForMember(dest => dest.ImageEvent, opt => opt.MapFrom(a => "data:image/png;base64," +
-                Convert.ToBase64String(a.ImageEvent)));
+              .ForMember(dest => dest.ImageEvent, opt => opt.MapFrom(a => "data:image/png;base64," +
+              Convert.ToBase64String(a.ImageEvent)));
 
         }
     }

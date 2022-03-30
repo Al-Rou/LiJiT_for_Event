@@ -22,9 +22,9 @@ namespace LiJiT.Model
         //Image could be important in this class, right?
         public byte[] ImageEvent { get; set; }
 
-        [ForeignKey("StatusTypeId")]
-        public Int16 StatusTypeId { get; set; }
-        public virtual StatusType StatusType { get; set; }
+        //[ForeignKey("StatusTypeId")]
+        //public Int16? StatusTypeId { get; set; }
+        //public virtual StatusType StatusType { get; set; }
 
 
     }

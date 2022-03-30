@@ -1,24 +1,38 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{29694412-9E84-4AAA-BA6C-37F03B9818F8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LiJiT.API/Controllers/ListingTypeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LiJiT.API/Controllers/AboutContentController.cs">
     <Files>
+      <File FileName="LiJiT.API/Migrations/20220327200100_EventsModel4.cs" Line="4" Column="2" IsPinned="True" />
+      <File FileName="LiJiT.DependencyConfig/ConfigureServices.cs" Line="22" Column="6" IsPinned="True" />
       <File FileName="LiJiT.Domain/DTO/AboutContentDto.cs" Line="10" Column="22" />
-      <File FileName="LiJiT.API/MappingProfile/MappingProfile.cs" />
-      <File FileName="LiJiT.API/Controllers/ListingDetailController.cs" />
-      <File FileName="LiJiT.API/Controllers/AboutContentController.cs" />
-      <File FileName="LiJiT.Domain/Service/AboutContentService.cs" />
+      <File FileName="LiJiT.API/MappingProfile/MappingProfile.cs" Line="55" Column="41" />
+      <File FileName="LiJiT.API/Controllers/ListingDetailController.cs" Line="27" Column="29" />
+      <File FileName="LiJiT.API/Controllers/AboutContentController.cs" Line="18" Column="10" />
+      <File FileName="LiJiT.Domain/Service/AboutContentService.cs" Line="1" Column="1" />
       <File FileName="LiJiT.API/Configuration/RequestResponseLoggingMiddleware.cs" />
       <File FileName="LiJiT.API/Startup.cs" />
-      <File FileName="LiJiT.API/Controllers/AuthenManagementController.cs" />
-      <File FileName="LiJiT.API/Program.cs" />
+      <File FileName="LiJiT.API/Controllers/AuthenManagementController.cs" Line="1" Column="1" />
       <File FileName="LiJiT.API/Models/JwtSettings.cs" />
       <File FileName="LiJiT.API/appsettings.json" />
       <File FileName="LiJiT.API/Configuration/ExceptionMiddleware.cs" />
       <File FileName="LiJiT.API/Configuration/ErrorDetails.cs" />
-      <File FileName="LiJiT.API/Controllers/ListingTypeController.cs" Line="18" Column="56" />
+      <File FileName="LiJiT.API/Controllers/ListingTypeController.cs" Line="16" Column="28" />
       <File FileName="LiJiT.API/Controllers/WeatherForecastController.cs" />
       <File FileName="LiJiT.Test/LitingTypeControllerTest.cs" />
       <File FileName="LiJiT.Domain/DTO/ListingDetailDto.cs" />
-      <File FileName="LiJiT.Domain/DTO/ListingTypeDto.cs" />
+      <File FileName="LiJiT.Persistance/Repository/EventsRepository.cs" Line="15" Column="1" />
+      <File FileName="LiJiT.Persistance/Repository/ListingDetailRepository.cs" Line="18" Column="1" />
+      <File FileName="LiJiT.Persistance/Repository/ListingTypeRepository (copy).cs" Line="15" Column="1" />
+      <File FileName="LiJiT.Domain/Service/EventService.cs" Line="55" Column="1" />
+      <File FileName="LiJiT.Model/Events.cs" Line="27" Column="61" />
+      <File FileName="LiJiT.API/Migrations/20220327193550_EventsModel.cs" Line="1" Column="1" />
+      <File FileName="LiJiT.API/Migrations/20220324020613_MyNewMigration.cs" Line="1" Column="1" />
+      <File FileName="LiJiT.API/Migrations/20220324004742_MyFirstMigration.cs" Line="17" Column="2" />
+      <File FileName="LiJiT.API/Migrations/20220327193940_EventsModel1.cs" Line="15" Column="7" />
+      <File FileName="LiJiT.API/Controllers/EventsController.cs" Line="25" Column="1" />
+      <File FileName="LiJiT.Domain/DTO/EventsDto.cs" Line="20" Column="2" />
+      <File FileName="LiJiT.Domain/Service/ListingDetailService.cs" Line="1" Column="1" />
+      <File FileName="LiJiT.API/Migrations/20220327195853_EventsModel3.cs" Line="1" Column="1" />
+      <File FileName="LiJiT.API/Program.cs" Line="26" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,21 +40,16 @@
           <Node name="LiJiT" expanded="True">
             <Node name="LiJiT.API" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="ListingTypeController.cs" selected="True" />
+                <Node name="AboutContentController.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="MappingProfile" expanded="True" />
             </Node>
             <Node name="LiJiT.Domain" expanded="True">
-              <Node name="DTO" expanded="True" />
               <Node name="Service" expanded="True" />
             </Node>
-            <Node name="LiJiT.Test" expanded="True" />
-            <Node name="LiJiT.Utility" expanded="True" />
+            <Node name="LiJiT.Model" expanded="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
@@ -49,7 +58,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Domain/Service/EventService.cs" relfile="LiJiT.Domain/Service/EventService.cs" line="44" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

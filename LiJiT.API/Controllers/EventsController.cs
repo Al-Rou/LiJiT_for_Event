@@ -22,16 +22,8 @@ namespace LiJiT.API.Controllers
             [Route("Upcoming")]
             public async Task<List<EventsDto>> GetAll()
             {
-                var temp = await _eventService.GetAll();
-                List<EventsDto> upcomingEvents = new List<EventsDto>();
-                foreach (var item in temp)
-                {
-                    if(item.EndDate > System.DateTime.Now)
-                    {
-                        upcomingEvents.Add(item);
-                    }
-                }
-                return upcomingEvents;
+                var result  = await _eventService.GetAll();
+                return result;
             }
 
             [HttpGet]

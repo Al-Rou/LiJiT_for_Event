@@ -26,7 +26,7 @@ namespace LiJiT.Domain.Service
             List<EventsDto> _listDto = new List<EventsDto>();
             try
             {
-                var result = await _eventsRepository.GetAll();
+                var result =  _eventsRepository.FindBy(a=>a.EndDate > DateTime.Now);
                 _listDto = new List<EventsDto>();
                 foreach (var item in result)
                 {

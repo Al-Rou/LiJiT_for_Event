@@ -15,5 +15,6 @@ namespace LiJiT.Domain.DTO
         public DateTime EndDate { get; set; }
         public string Location { get; set; }
         public string ImageEvent { get; set; }
+        
     }
 }

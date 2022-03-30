@@ -16,6 +16,8 @@ namespace LiJiT.DependencyConfig
             service.AddTransient<IListingDetailService, ListingDetailService>();
             service.AddTransient<IAboutContentService, AboutContentService>();
             service.AddTransient<IAboutContentRepository, AboutContentRepository>();
+            service.AddTransient<IEventService, EventService>();
+            service.AddTransient<IEventsRepository, EventsRepository>();
         }
     }
 }
