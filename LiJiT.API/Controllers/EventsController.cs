@@ -33,6 +33,15 @@ namespace LiJiT.API.Controllers
                 }
                 return upcomingEvents;
             }
+
+            [HttpGet]
+            [Route("All")]
+            public async Task<List<EventsDto>> GetAllEvents()
+            {
+                var temp = await _eventService.GetAll();
+                return temp;
+            }
+
             [HttpPost]
             [Route("Create")]
             public async Task<ListDto<EventsDto>> CreateAboutContent(EventsDto newEvent)
