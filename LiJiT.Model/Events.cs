@@ -12,6 +12,12 @@ namespace LiJiT.Model
         [Required]
         public string Address { get; set; }
         [StringLength(200)]
+        [Required]
+        public string Address2 { get; set; }
+        [StringLength(150)]
+        public string Name { get; set; }
+
+        [StringLength(200)]
         public string Description { get; set; }
         [Required]
         public DateTime StartDate { get; set; }
@@ -19,12 +25,18 @@ namespace LiJiT.Model
         public DateTime EndDate { get; set; }
         [Required]
         public string Location { get; set; }
+      
+        [StringLength(15)]
+        public string Phone { get; set; }
+        [StringLength(50)]
+        public string Email { get; set; }
+        [StringLength(200)]
+        public string ShareLink { get; set; }
+        [StringLength(200)]
+        public string Organizer { get; set; }
         //Image could be important in this class, right?
         public byte[] ImageEvent { get; set; }
 
-        //[ForeignKey("StatusTypeId")]
-        //public Int16? StatusTypeId { get; set; }
-        //public virtual StatusType StatusType { get; set; }
 
 
     }

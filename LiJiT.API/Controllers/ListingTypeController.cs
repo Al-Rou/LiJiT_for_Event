@@ -14,7 +14,7 @@ namespace LiJiT.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
+    [Authorize]
     public class ListingTypeController : ControllerBase
     {
         private IListingTypeService _listingTypeService;

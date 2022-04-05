@@ -30,8 +30,6 @@ namespace LiJiT.API.Controllers
             return await _listingDetailService.getAll();
         }
 
-
-  
         [HttpPost]
         [Route("Create")]
         public async Task<ListDto<ListingDetailDto>> Create(ListingDetailDto listingDetailDto)

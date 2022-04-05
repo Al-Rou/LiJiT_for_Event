@@ -27,7 +27,7 @@ namespace LiJiT.Domain.DTO
         public string ShareLink { get; set; }
         [JsonIgnore]
         public string  HomeImage { get; set; }
-
+        public string OrderLink { get; set; }
 
 
     }

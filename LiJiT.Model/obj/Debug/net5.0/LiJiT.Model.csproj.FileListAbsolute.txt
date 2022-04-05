@@ -69,3 +69,4 @@ C:/Users/Al/Desktop/LiJiT/LiJiT_Two/LiJiT_Two/LiJiT.Model/obj/Debug/net5.0/ref/L
 /Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/obj/Debug/net5.0/LiJiT.Model.dll
 /Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/obj/Debug/net5.0/ref/LiJiT.Model.dll
 /Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/obj/Debug/net5.0/LiJiT.Model.pdb
+/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/obj/Debug/net5.0/LiJiT.Model.csproj.AssemblyReference.cache

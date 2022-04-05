@@ -39,6 +39,8 @@ namespace LiJiT.Model
         public string Youtube { get; set; }
         [StringLength(300)]
         public string ShareLink { get; set; }
+        [StringLength(300)]
+        public string OrderLink { get; set; }
 
     }
 }

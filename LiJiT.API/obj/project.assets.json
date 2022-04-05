@@ -5691,7 +5691,7 @@
       "outputPath": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/shirinmansouri/.nuget/NuGet/NuGet.Config"
+        "/Users/shirinmansouri/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
