@@ -766,32 +766,42 @@
     ]
   },
   "packageFolders": {
-    "/Users/shirinmansouri/.nuget/packages/": {}
+    "C:\\Users\\Al\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Domain/LiJiT.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Domain\\LiJiT.Domain.csproj",
       "projectName": "LiJiT.Domain",
-      "projectPath": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Domain/LiJiT.Domain.csproj",
-      "packagesPath": "/Users/shirinmansouri/.nuget/packages/",
-      "outputPath": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Domain/obj/",
+      "projectPath": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Domain\\LiJiT.Domain.csproj",
+      "packagesPath": "C:\\Users\\Al\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/shirinmansouri/.config/NuGet/NuGet.Config"
+=======
+        "C:\\Users\\Al\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 042ca766084c720dc090944c9150d08f0860d7c9
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/LiJiT.Model.csproj": {
-              "projectPath": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Model/LiJiT.Model.csproj"
+            "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Model\\LiJiT.Model.csproj": {
+              "projectPath": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Model\\LiJiT.Model.csproj"
             }
           }
         }
@@ -834,7 +844,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "OPCkZgERCg7ZBp7vFH48zF0lmTeGLXlSMhjyZV0Hj12VEMQe2HztdzxJ+F057IueGPw3NZg6Ymj06JvuAQZrnw==",
+=======
+  "dgSpecHash": "bloshZs8Y4C/eqrJ7/50Z5nxb8k7L1e1teQLsgtMnHe3H0R1xGfLyAALzMc/IAgWqh8MHc/nJw+nXQBt1yJYWg==",
+>>>>>>> 042ca766084c720dc090944c9150d08f0860d7c9
   "success": true,
-  "projectFilePath": "/Users/shirinmansouri/Documents/MAPD726/LiJiT_for_Event/LiJiT.Utility/LiJiT.Utility.csproj",
+  "projectFilePath": "C:\\Users\\Al\\Desktop\\LiJiT\\LiJiT_Two\\LiJiT_Two\\LiJiT.Utility\\LiJiT.Utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
